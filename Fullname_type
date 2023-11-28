@@ -1,7 +1,7 @@
 first_name = "Norvin"
-middle_name = " Samson"
-last_name = " Anthony"
+middle_name = "Samson"
+last_name = "Anthony"
 
-full_name = first_name + middle_name + last_name
+full_name = first_name +" "+ middle_name+ " " + last_name
 
 print("Hello " + full_name)
