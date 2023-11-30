@@ -1,0 +1,4 @@
+age = 19
+age += 1
+print(type(age)) # data type of age will be given as output
+print("Your age is: " + str(age)) #we use str here which is short form of string to convert int variable of age to string , so as to use string concatenation in the printing statemnt
