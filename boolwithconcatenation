@@ -1,0 +1,8 @@
+# boolean with concatenation in printing statement
+
+human = False
+# here we write false instead of Flase it would give us an error as python is case-sensitive language.
+
+print("Are you human: " + str(human))
+
+print(type(human))
