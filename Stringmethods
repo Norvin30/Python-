@@ -1,0 +1,14 @@
+# String methods to use in python
+
+name = "Norvin"
+
+print(len(name))
+print(name.find("o"))
+print(name.capitalize())
+print(name.upper())
+print(name.lower())
+print(name.isdigit())
+print(name.isalpha())
+print(name.count("n"))
+print(name.replace("N","Q"))
+print(name*8)
