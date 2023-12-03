@@ -1,0 +1,21 @@
+# multiple assignment = allows us to assign multiple vatiable at the same time in one line of code
+
+# This is the normal way of assigning a value to a variable
+
+name = "Norvin"
+Age =  19
+goodbehaviour = True 
+
+print(name)
+print(Age)
+print(goodbehaviour)
+
+# Application of Multiple assignment
+
+name,Age,goodbehaviour = "Norvin", 19, True
+'''The order of assigning variable sholud be in a sequential way.
+. The order in which we are declaring the variables and order of assigning values to those variables should be same.'''
+
+print(name)
+print(Age)
+print(goodbehaviour)
