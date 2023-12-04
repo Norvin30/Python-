@@ -1,0 +1,31 @@
+# Math functions
+# Important functions related to number in Python.
+
+import math
+
+pi = -3.14
+x = 16
+e = 12
+r = 19
+
+print(round(pi))
+print(math.ceil(pi)) 
+#  ceil() approxes the number to the nearest greater no.
+
+print(math.floor(pi))
+#floor() approc=xes the number to the nearest lesser no.
+
+print(abs(pi)) 
+'''abs() will tell you how much a given no is far from 0.in short it will give positive value if the number is neagative.'''
+
+print(math.sqrt(x))
+# sqrt() gives Square-root of a given function.
+
+print(pow(pi,3))
+# gives exponential valur of a given no.
+
+print(max(pi,x,e,r))
+# Gives maximum value of the given values.
+
+print(min(pi,x,e,r))
+# Gives minimum value of the given values.
