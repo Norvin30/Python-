@@ -1,0 +1,13 @@
+# User Input = Taking input data fro the user
+
+name = input("What is your name?: ")
+age = float(input("How old are you?: "))
+height = float(input("What is your height?: "))
+
+age = age + 2
+
+# We use str here as we cannot concatenate string with int or float. str() is the shortform of String() and float() is the short form of floating point number() 
+
+print("Hello "+str(name)+" how are you")
+print(str(name)+" you are "+str(age)+" years old")
+print("You are " + str(height) +"metre" " tall")
