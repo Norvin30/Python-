@@ -1,0 +1,15 @@
+# Code for Sapping two number without using third variable
+
+x = 9
+y =12
+
+print("Before Swapping: ")
+print("value of x: ",x, " and  y: ",y)
+
+x,y = y, x
+# Code to swap x and y
+
+print("After Swapping: ")
+print("value of x: ",x, " and  y: ",y)
+
+
