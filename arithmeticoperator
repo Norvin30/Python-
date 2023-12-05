@@ -1,0 +1,6 @@
+a = 12
+b = 12
+print("Addition of a and b", a+b)
+print("Subtraction of a and b", a-b)
+print("Multiplication of a and b", a*b)
+print("Divivsion of a and b", a/b)
