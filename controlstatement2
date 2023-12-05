@@ -1,0 +1,11 @@
+a = input("Enter a number for variable a\n: ")
+b = input("Enter a number for variable b\n: ")
+
+# When the condition becomes true the control comes to an end
+
+if a<b:
+    print("A is less than b")
+elif a>b:
+    print("A is greater than b")
+elif a == b:
+    print("A is equal to b")
