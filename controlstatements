@@ -1,0 +1,14 @@
+maths = 70
+Science = 40
+Sanskrit = 20
+
+total = maths + Science + Sanskrit
+
+print(total)
+
+if maths >= 35 and Sanskrit >= 35  and Science >= 35:
+   print("Student is PASS")
+   
+elif maths <= 35 or Sanskrit <= 35  or Science <= 35:
+   print("FAIL")
+
