@@ -1,0 +1,30 @@
+# Here is a code for Slicing
+# Slicing = Creating a subsring by extracting Elements from another string indexing[] or slice()
+#[start:stop:step]
+''' The index which we insert at start field in inclusive of the output.
+         While for stop field it is exlusive
+                       OR
+    The start fiels starts reading the index from 0. while the stop fiels does it from 1.'''
+    
+name = "Norvin Samson Anthony"
+
+#if we leave the Starting index empty python will assume index from 0.
+#if we leave the Stopping index empty python will assume index at the very end of yout String.
+
+first_name = name[0:6]
+middle_name = name[7:13]
+last_name = name[14:21]
+
+#step is how much we are index by from starting index to stoppping index.
+step_name = name[0:21:4]
+
+reversed_name = name[21:0:-1]
+
+# Here we have written Start index as 21 and stop index as 0 as we wanted to reverse the string.
+
+
+print(first_name)
+print(middle_name)
+print(last_name)
+print(step_name)
+print(reversed_name)
