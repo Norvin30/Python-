@@ -1,0 +1,11 @@
+# Here is a program to calculate perimeter of rectangke by taking user input.
+# l is the length od rectanfle while b is the breadth of rectangle.
+
+# formula of perimeter of rectangle = 2*(l+b)
+
+l=float(input("Enter the length of rectangle:"))
+b=float(input("Enter the breadth of rectangle:"))
+
+perimeter = 2*(l+b)
+
+print("Permieter of rectagle from the data given is: ",perimeter)
