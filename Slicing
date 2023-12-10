@@ -1,19 +1,19 @@
 # Here is a code for Slicing
 # Slicing = Creating a subsring by extracting Elements from another string indexing[] or slice()
 #[start:stop:step]
-''' The index which we insert at start field in inclusive of the output.
-         While for stop field it is exlusive
+''' The index which we insert at start field is inclusive in the output.
+         While the index which we specify for  stop field it is exlusive
                        OR
-    The start fiels starts reading the index from 0. while the stop fiels does it from 1.'''
+    The start and stop field starts reading index from 0.
     
 name = "Norvin Samson Anthony"
 
 #if we leave the Starting index empty python will assume index from 0.
 #if we leave the Stopping index empty python will assume index at the very end of yout String.
 
-first_name = name[0:6]
-middle_name = name[7:13]
-last_name = name[14:21]
+first_name = name[0:6] # output will be Norvin 
+middle_name = name[7:13] # output will be Samson 
+last_name = name[14:21] # output will be Anthony
 
 #step is how much we are index by from starting index to stoppping index.
 step_name = name[0:21:4]
