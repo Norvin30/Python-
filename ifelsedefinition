@@ -1,0 +1,11 @@
+'''if statement  = block of code that will be executed if the condition is true.
+ else statement = block of code which will be executed when if statements condition fails.
+it is not necessary to write a else block . but for witinf a else block it is compulsory to write a if statement.'''
+
+age=int(input("Enter your age: "))
+
+if age>=18:
+    print("You  are eligible to vote")
+    
+else:
+    print("You are not eligible to vote")
