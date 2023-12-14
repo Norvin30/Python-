@@ -1,0 +1,22 @@
+'''write a program to calculate bmi= body mass index
+you are also required to print bmi category as per the following 
+criteria: 
+  BMI<18.5 "underweight"
+  BMI >=18.5 AND bmi <= 24.99 "healthy"
+  bmi >25 "unhealthy" '''
+  
+weight=float(input("Enter the weight:\n"))
+height=float(input("Enter the height:\n"))
+
+BMI=weight/(height*height)
+
+print("Body mass index: ",BMI)
+
+if BMI<18.5:
+  print(" Person is underweight")
+  
+elif BMI>=18.5 and BMI<=24.99:
+  print("healthy")
+else:
+  print("unhealthy")
+  
