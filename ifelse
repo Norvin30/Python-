@@ -1,0 +1,23 @@
+'''if you found the no is even add 10 in
+that number and and again check whether 
+the no is greater yhan 30 or not
+if you found the no is odd multiply the no by seven then check
+again if updated no is greater than equal to 40 or not'''
+
+a=float(input("Enter no "))
+
+if a%2==0:
+  print("number is even")
+  a=a+10
+  if a>30:
+    print("Updated Number is greater than 30")
+  else:
+    print("Updated Number is less than 30")
+    
+else:
+  print("number is odd")
+  a=a*7
+  if a==40:
+    print("Updated Number is euqal to 40") 
+  else:
+    print("Updated Number is not equal to  40")
