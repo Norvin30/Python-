@@ -1,0 +1,18 @@
+'''write a program that takes input of thre number 
+and check and check the greatest among three numbers using elif'''
+
+a=float(input("Enter no a\n"))
+b=float(input("Enter no b\n"))
+c=float(input("Enter no c\n"))
+
+if a>b and a>c:
+  print("a is greater among three")
+  
+elif(b>a and b>c):
+    print("b is greater among three")
+    
+elif(c>a and c>b):
+    print("c is greater among three")a
+    
+else:
+    print("All are equal")
